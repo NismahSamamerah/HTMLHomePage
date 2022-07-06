@@ -1,0 +1,104 @@
+:root{
+    --primary-color: #5468E7 ;
+    ---secondary-color:#232340;
+    --padding-- :5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/images/background.jpg);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding--);
+
+}
+.logo {
+    height: 30px;
+    width: 100px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px 35px;
+}
+ul li a {
+    text-decoration: none;
+    color: var(---secondary-color);
+}
+header ul li a:hover{
+    color:var(--primary-color);
+    cursor: pointer;
+}
+.btn {
+    background-color: var(---secondary-color);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+}
+.container{
+    display: flex; 
+    justify-content: space-around;
+    padding-left: 2%;
+    
+}
+.container aside {
+    display: inline-block;
+    width: 40%;
+}
+.container aside h1 {
+    
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.container aside p{
+    color: #606060;
+    font-size: 25px; 
+    padding-top: 25px;
+}
+.container aside input{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+}
+
+.container section {
+    position: relative;
+}
+
+.image2{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    width: 800px;
+    height: 600px;
+}
+
+#img3{
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
